@@ -1,0 +1,14 @@
+Package: hotr
+Title: Hereos of the Storm Data
+Version: 0.0.0.1
+Authors@R: person("Nathan", "Teetor", email = "nathanteetor@gmail.com", role = c("aut", "cre"))
+Description: Retrieve and parse data from heroesjson.com.
+Imports:
+    httr,
+    dplyr,
+    tidyr
+Depends:
+    R (>= 3.2.3)
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 5.0.1
