@@ -11,6 +11,6 @@ This function downloads and parses the heroesjson data into a mangable
 data.frame.
 }
 \details{
-The raw data is pulled from \link{http://heroesjson.com/heroes.json}.
+The raw data is pulled from \url{http://heroesjson.com/heroes.json}.
 }
 

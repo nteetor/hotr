@@ -5,7 +5,7 @@
 #'
 #' @details
 #'
-#' The raw data is pulled from \link{http://heroesjson.com/heroes.json}.
+#' The raw data is pulled from \url{http://heroesjson.com/heroes.json}.
 #'
 #' @export
 heroes_data <- function() {
