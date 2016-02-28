@@ -6,7 +6,11 @@ Description: Retrieve and parse data from heroesjson.com.
 Imports:
     httr,
     dplyr,
-    tidyr
+    tidyr,
+    rvest,
+    xml2,
+    purrr,
+    stringr
 Depends:
     R (>= 3.2.3)
 License: MIT + file LICENSE

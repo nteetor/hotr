@@ -1,4 +1,4 @@
-#' Download and Parse Heroes JSON Data
+#' Download and Parse Hero Data
 #'
 #' This function downloads and parses the heroesjson data into a mangable
 #' data.frame.
@@ -8,7 +8,7 @@
 #' The raw data is pulled from \url{http://heroesjson.com/heroes.json}.
 #'
 #' @export
-heroes_data <- function() {
+hero_data <- function() {
   GET('http://heroesjson.com/heroes.json') %>%
     content %>%
     lapply(
